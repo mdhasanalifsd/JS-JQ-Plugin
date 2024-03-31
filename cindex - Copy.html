@@ -1,0 +1,82 @@
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>js-jq</title>
+    <!-- css links-->
+    <link rel="stylesheet"  href="css/bootstrap.css">
+    <link rel="stylesheet"  href="css/style.css">
+    <link rel="stylesheet"  href="css/media.css">
+  </head>
+
+  <body>
+    <div class="container">
+      <p class="example_s">Example: 1 Variable Declaration</p>
+      <hr>
+      <p class="example_s">Example: 40 String search() Method</p>
+      <h2 class="text-danger">Click the button to see location of string in a sentence</h2>
+      <button class="btn btn-dark" onclick="stringsearch()">String Length</button>
+      <h3 id="s.length">Length</h3>
+      <hr>
+      <p class="example_s">Example: 41 string length</p>
+      <h2 class="text-danger">Click the button to see length of string</h2>
+      <button class="btn btn-dark" onclick="stringlength()">String Length</button>
+      <h3 id="s.length">Length</h3>
+      <hr>
+      <p class="example_s">Example: 42 character at a specified index (position)</p>
+      <h2 class="text-danger">Click the button to see position of string</h2>
+      <button class="btn btn-dark" onclick="stringposition()">String Position at [3] in "ASSSD FGHJKL"</button>
+      <h3 id="s.position">Position</h3>
+      <hr>
+      <p class="example_s">Example: 43 Event: Show Time </p>
+      <h2 class="text-danger">Click the button to see time and date</h2>
+      <button class="btn btn-dark" onclick="dateandtime()">date and time is</button>
+      <h3 id="datentime">dateandtime</h3>
+      <hr>
+      <p class="example_s">Example: 44 Booleans Operators</p>
+      <h2 class="text-danger">Click the button to see boolean function</h2>
+      <button class="btn btn-dark" onclick="booleano()">5 is less than 7</button>
+      <h3 id="boolean">result</h3>
+      <hr>
+      <p class="example_s">Example: 45 exponentiation operator</p>
+      <h2 class="text-danger">Click the button to get the exponential value</h2>
+      <button class="btn btn-dark" onclick="exponential()">6 to the power 3</button>
+      <h3 id="exp_value">exponential value</h3>
+      <hr>
+      <p class="example_s">Example: 46 String Comparison</p>
+      <h2 class="text-danger">Click the button to compare two string</h2>
+      <button class="btn btn-dark" onclick="stringcomp()">compare 5 and 4</button>
+      <h3 id="stringcomparison">coparison</h3>
+
+      <p class="example_s">Example: 47 Operator Modulus (Division Remainder)</p>
+      <h2 class="text-danger">Click the button to calculate reminder</h2>
+      <button class="btn btn-dark" onclick="modulus()">Calculate</button>
+      <h3 id="reminder">Reminder</h3>
+
+      <hr>
+      <p class="example_s">Example: 48 Operators</p>
+      <h2 class="text-danger">Click the button to calculate data</h2>
+      <button class="btn btn-dark" onclick="calculation()">Calculation</button>
+      <h3 id="value">Value</h3>
+      <hr>
+      <!--bulb on/off-->
+      <p class="example_s">Example: 49 bulb on/off</p>
+      <h2 class="text-danger">Click the button to on/off the bulb</h2>
+      <button class="btn btn-dark" onclick="bulbOn()">Bulb On</button>
+      <button class="btn btn-dark" onclick="bulbOff()">Bulb Off</button>
+
+      <img id="bulb" src="images/off.gif" alt="">
+      <hr>
+      <!--text change-->
+      <p class="example_s">Example: 50 Text Change</p>
+      <h2 class="text-danger">Click the button to change the text</h2>
+      <button class="btn btn-dark" onclick="textChange()">Text Change</button>
+      <h3 id="t_c">It's 2023</h3>
+    </div>   
+   <!--js links--> 
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/script.js"></script>
+  </body>
+</html>
